@@ -1,19 +1,21 @@
-import React from 'react';
+import React from "react";
 
-import './App.css';
+import "./App.css";
 
 export default function App() {
   return (
     <div className="App"> Weather App
     <footer>
       This project was coded by {""}
-      <link href="https://www.linkedin.com/in/zuzanaochmanova/" 
-      target="_blank">
-      Zuzana Ochmanova </link>
+      <a href="https://www.linkedin.com/in/zuzanaochmanova/" 
+      target="_blank"
+         rel="noopener noreferrer">
+      Zuzana Ochmanova </a> 
       and is {""}
-    <link href="https://github.com/ZuzanaOchmanova/react-app"
-    target="_blank">
-      Open-sourced on GitHub</link>
+    <a href="https://github.com/ZuzanaOchmanova/react-app"
+    target="_blank"
+       rel="noopener noreferrer">
+      Open-sourced on GitHub</a>
 </footer>
     </div>
   );
