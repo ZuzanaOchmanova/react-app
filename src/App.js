@@ -1,3 +1,4 @@
+import React from 'react';
 
 import './App.css';
 
@@ -6,13 +7,13 @@ export default function App() {
     <div className="App"> Weather App
     <footer>
       This project was coded by {""}
-      <a href="https://www.linkedin.com/in/zuzanaochmanova/" 
+      <link href="https://www.linkedin.com/in/zuzanaochmanova/" 
       target="_blank">
-      Zuzana Ochmanova </a>
+      Zuzana Ochmanova </link>
       and is {""}
-    <a href="https://github.com/ZuzanaOchmanova/react-app"
+    <link href="https://github.com/ZuzanaOchmanova/react-app"
     target="_blank">
-      Open-sourced on GitHub</a>
+      Open-sourced on GitHub</link>
 </footer>
     </div>
   );
