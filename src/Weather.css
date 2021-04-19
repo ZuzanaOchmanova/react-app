@@ -49,3 +49,8 @@
   top: -34px;
   margin-left: 0px;
 }
+
+.Weather .units {
+  color: black;
+  text-decoration: none;
+}
